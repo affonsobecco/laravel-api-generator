@@ -79,9 +79,6 @@
 @endsection
 
 @section("ready_scripts")
-	Metronic.init(); // init metronic core componets
-	Layout.init(); // init layout
-
 	oTable = $('#data-table1').DataTable({
 	"language": {
 		"url": "//cdn.datatables.net/plug-ins/1.10.9/i18n/Portuguese-Brasil.json"
