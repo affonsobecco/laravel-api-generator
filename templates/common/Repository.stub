@@ -19,6 +19,11 @@ class $MODEL_NAME$Repository extends BaseRepository implements I$MODEL_NAME$Repo
       return $MODEL_NAME$::class;
     }
 
+    public function getQuery()
+    {
+        return $this->model->query();
+    }
+
 	public function search($input, $getResults = true)
     {
         $query = $MODEL_NAME$::query();
