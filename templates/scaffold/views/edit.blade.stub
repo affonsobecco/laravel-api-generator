@@ -1,5 +1,5 @@
 @extends('layouts.master')
-
+@include('layouts.libs._common_form_controls')
 @section('content')
 <div class="row">
     <div class="col-md-12 col-sm-12">
