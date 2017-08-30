@@ -11,7 +11,7 @@ use App\Services\$MODEL_NAME$Service;
 use Illuminate\Http\Request;
 use yajra\Datatables\Datatables;
 use yajra\Datatables\Html\Builder;
-use Casa\Traits\Select2ableTrait;
+use Becco\Traits\Select2ableTrait;
 use App\Entities\$MODEL_NAME$;
 
 class $MODEL_NAME$Controller extends AppBaseController

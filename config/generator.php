@@ -11,9 +11,9 @@ return [
     |
     */
 
-    'base_controller'          => 'Casa\Controller\AppBaseController',
+    'base_controller'          => 'Becco\Controller\AppBaseController',
 
-    'base_repository'          => 'Casa\Repositories\AppBaseRepository',
+    'base_repository'          => 'Becco\Repositories\AppBaseRepository',
 
     /*
     |--------------------------------------------------------------------------
@@ -42,9 +42,9 @@ return [
 
     'path_request'             => app_path('Http/Requests/'),
 
-    'path_routes'              => app_path('Http/routes.php'),
+    'path_routes'              => app_path('routes/web.php'),
 
-    'path_api_routes'          => app_path('Http/api_routes.php'),
+    'path_api_routes'          => app_path('routes/api.php'),
 
     /*
     |--------------------------------------------------------------------------
@@ -81,7 +81,9 @@ return [
     |
     */
 
-    'model_extend_class'   => 'Illuminate\Database\Eloquent\Model',
+    'model_extend' => true,
+    'model_extend_namespace' => 'App\Entities\AppBaseModel as AppBaseModel',
+    'model_extend_class'   => 'AppBaseModel',
 
     /*
     |--------------------------------------------------------------------------

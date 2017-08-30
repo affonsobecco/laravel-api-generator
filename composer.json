@@ -1,6 +1,6 @@
 {
     "name": "julioalves/laravel-api-generator",
-    "description": "Laravel API/Scaffold/CRUD Generator from just one command with including Controller, Repository, Model, Migrations, routes.php update.",
+    "description": "Laravel API/Scaffold/CRUD Generator from just one command with including Controller, Repository, Model, Migrations, web.php update.",
     "keywords": [
         "laravel",
         "api",
@@ -18,18 +18,23 @@
         {
             "name": "Julio Alves",
             "email": "julio.cesar.alves@gmail.com"
+        },
+
+        {
+            "name": "Affonso Becco",
+            "email": "affonsobecco@gmail.com"
         }
     ],
     "require": {
-        "php": ">=5.5.9",
-        "illuminate/support": "5.*",
-        "prettus/l5-repository": "^2.1",
-        "prettus/laravel-validation": "^1.1"
+        "php": ">=5.6",
+        "illuminate/support": "5.4.*",
+        "prettus/l5-repository": "^2.6.*",
+        "prettus/laravel-validation": "^1.1.*"
 
     },
     "autoload": {
         "psr-4": {
-            "Casa\\": "src/Casa/"
+            "Becco\\": "src/Becco/"
         }
     },
     "suggest": {
