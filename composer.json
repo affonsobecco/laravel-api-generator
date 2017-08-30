@@ -1,5 +1,5 @@
 {
-    "name": "julioalves/laravel-api-generator",
+    "name": "affonsobecco/laravel-api-generator",
     "description": "Laravel API/Scaffold/CRUD Generator from just one command with including Controller, Repository, Model, Migrations, web.php update.",
     "keywords": [
         "laravel",
